@@ -1,0 +1,84 @@
+/* Home Page styles */
+body{
+  padding:15px;
+  background-color: rgb(20, 20, 72);
+  color:rgb(0, 168, 240);
+  
+}
+.homeheading{
+  color:aquamarine;
+  font-size: 5rem;
+  margin-top:100px ;
+  text-align: center;
+  text-shadow: 0 0 50px rgb(0, 255, 140);
+}
+.homeheading span{
+  font-family:sans-serif;
+  color:aqua;
+  
+}
+.homedescription{
+  position:absolute;
+  top:200px;
+  left:500px;
+  color:rgb(0, 168, 240);
+  font-size: 2rem;
+  margin-left:100px;
+  text-align: center;
+
+}
+.browse{
+  margin-top:300px;
+  margin-left: 30px;
+  font-size: 1.8rem;
+}
+/* Home Page Card styles */
+.cardscontainer{
+
+  display:flex;
+  justify-content: center;
+}
+.cards {
+  margin-top:50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 30px; /* Gap between grid items */
+  padding-bottom: 100px;
+}
+
+/* Grid item styles */
+
+.card {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid #15adff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.card:hover{
+  
+  border: 2px solid blue;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:#15adff
+}
+.card:hover h2{
+  color: #000000;
+}
+.card:hover p{
+  color:#2d2d2d;
+  
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+.card p {
+  font-size: 16px;
+  color: #a5a3a3;
+  text-wrap:stable;
+}
